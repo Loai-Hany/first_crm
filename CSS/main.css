@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+table td {
+  padding-top: 14px !important;
+  border-bottom: 1px solid #a8a7a7;
+}
+
+.dark-theme {
+  background-color: #333;
+}
+
+.row-theme {
+  color: orangered;;
+}
+
+.up-btn {
+  padding: 10px 20px;
+  background-color: #1876f2;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  transition: all 0.4s;
+  display: none;
+  cursor: pointer;
+}
+
+.up-btn:hover {
+  background-color: #222;
+  color: darkorange;
+}
+
+.moon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  color: #1876f2;
+  font-size: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: absolute;
+  right: 35px;
+  top: 80px;
+  transition: all 0.4s;
+}
+
+.moon:hover {
+  background-color: #444;
+  color: orangered;
+}
+
+.moon-theme {
+  background-color: #444;
+
+}
